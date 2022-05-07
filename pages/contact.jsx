@@ -5,9 +5,9 @@ import emailjs from 'emailjs-com';
 
 const contact = () => {
 
-  const [name,setName]=useState('');
-  const [email,setEmail]=useState('');
-  const [msg,setMsg]=useState('');
+  // const [name,setName]=useState('');
+  // const [email,setEmail]=useState('');
+  // const [msg,setMsg]=useState('');
   const form = useRef();
 
   const sendEmail = (e) => {
