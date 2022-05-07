@@ -1,0 +1,18 @@
+.menu {
+    padding: 0.5rem 1.25rem;
+    background: #2d2d2d;
+    color: #ececec;
+    display: flex;
+    align-items: center;
+    border-right: #393e46 solid 1px;
+    border-left: #393e46 solid 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+.active {
+    border: 0;
+    background: #1e1e1e;
+    border-bottom: none;
+  }
