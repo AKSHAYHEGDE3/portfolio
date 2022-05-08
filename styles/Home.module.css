@@ -98,12 +98,13 @@
 
   }
 
-  .profile_img div{
+  .profile_img img{
     height: 220px !important;
     width: 220px !important;
     margin-right: auto;
     margin-left: auto;
   }
+  
  }
 
  @media (max-width:500px){
@@ -122,7 +123,7 @@
     width: 85vw;
   }
 
-  .profile_img div{
+  .profile_img img{
     height: 200px !important;
     width: 200px !important;
     margin-right: auto;
