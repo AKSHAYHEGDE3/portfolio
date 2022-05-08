@@ -15,7 +15,7 @@ const contact = () => {
 
   return (
     <div className={`${styles.contact}`}>
-      <h2 className='text-white text-2xl text-center mt-8 font-bold md:w-[900px]'>Let's Grab Some Coffee</h2>
+      <h2 className='text-white text-2xl text-center mt-8 font-bold md:w-[900px]'>Let&apos;s Grab Some Coffee</h2>
       <div className={`flex mt-4 ${styles.conc}`}>
         <div style={{ padding: '3% 0 3% 3%',width:'60%'}} className={`${styles.soc}`} >
           <Social />
