@@ -9,7 +9,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;linkedin: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="https://www.linkedin.com/in/akshay-hegde-47ba05206/" target="_blank" rel="noopener">
+                    <a className={styles.links} href="https://www.linkedin.com/in/akshay-hegde-47ba05206/" target="_blank" rel="noopener  noreferrer">
                     akshay-hegde
                     </a>
                 </span>
@@ -18,7 +18,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;instagram: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="https://www.instagram.com/akshayhegde3/" target="_blank" rel="noopener">
+                    <a className={styles.links} href="https://www.instagram.com/akshayhegde3/" target="_blank" rel="noopener  noreferrer">
                         akshayhegde3
                     </a>
                 </span>
@@ -27,7 +27,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;twitter: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="https://twitter.com/AkshayHegde39" target="_blank" rel="noopener">
+                    <a className={styles.links} href="https://twitter.com/AkshayHegde39" target="_blank" rel="noopener  noreferrer">
                     AkshayHegde39
                     </a>
                 </span>
@@ -36,7 +36,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;github: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="https://github.com/AKSHAYHEGDE3" target="_blank" rel="noopener">
+                    <a className={styles.links} href="https://github.com/AKSHAYHEGDE3" target="_blank" rel="noopener  noreferrer">
                     AKSHAYHEGDE3
                     </a>
                 </span>
@@ -45,7 +45,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;mail: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="/" target="_blank" rel="noopener">
+                    <a className={styles.links} href="/" target="_blank" rel="noopener  noreferrer">
                     AkshayHegde39
                     </a>
                 </span>
@@ -54,7 +54,7 @@ const Social = () => {
             <p className='my-1'>
                 <span className={`${styles.media} text-white font-bold`}>&nbsp;&nbsp;&nbsp;whatsapp: </span>
                 <span className='text-[#f9826c] font-bold'>
-                    <a className={styles.links} href="/" target="_blank" rel="noopener">
+                    <a className={styles.links} href="/" target="_blank" rel="noopener  noreferrer">
                     7756944608
                     </a>
                 </span>

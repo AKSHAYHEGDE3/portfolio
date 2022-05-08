@@ -28,8 +28,8 @@ const about = () => {
             <span className='mr-2 font-bold text-2xl text-[#d7f484]'>Skills : </span><br/>
             <div style={{maxWidth:'80vw'}} className='flex flex-wrap'>
               {
-                skills.map(skill=>{
-                  return <div className='inline-flex items-center justify-center px-2 py-1 font-bold leading-none text-white bg-[#5bc0de] rounded-full mx-2 my-3'>{skill}</div>
+                skills.map((skill,index)=>{
+                  return <div key={index} className='inline-flex items-center justify-center px-2 py-1 font-bold leading-none text-white bg-[#5bc0de] rounded-full mx-2 my-3'>{skill}</div>
                 })
               }   
             </div>

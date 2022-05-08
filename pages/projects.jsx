@@ -7,12 +7,12 @@ const projects = () => {
   return (
     <div className={`p-5 px-8 ${styles.main}`}>
         <h2 style={{fontFamily:'JetBrains Mono,monospace'}} className='text-white text-2xl font-bold'>
-            Look What I've Built
+            {`Look What I've Built`}
         </h2>
         <div  className='flex flex-wrap justify-between mt-5 '>
           {
-            projectLists.map(project=>{
-              return <ProjectCard project={project} />
+            projectLists.map((project,index)=>{
+              return <ProjectCard key={index} project={project} />
             })
           }
         </div>
