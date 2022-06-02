@@ -1,3 +1,7 @@
+.main_about{
+    font-family: 'JetBrains Mono';
+}
+
 @media (min-width:950px){
     .para{
         max-width: 90%;
