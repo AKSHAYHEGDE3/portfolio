@@ -16,14 +16,6 @@ export const projectLists = [
         code: 'https://github.com/AKSHAYHEGDE3/bingeflix',
     },
     {
-        img : '/chatsapp.png',
-        title : 'CHATSAPP',
-        desc:'A real time chat Apllication using Next Js and Firebase.',
-        color: '#efeae2',
-        demo: 'https://chatsapp-akshay.vercel.app/',
-        code: 'https://github.com/AKSHAYHEGDE3/chatsapp',
-    },
-    {
         img : '/clothify.png',
         title : 'CLOTHIFY',
         desc:'A E-com web application with features like cart,payemnt gateway etc.',
@@ -38,6 +30,14 @@ export const projectLists = [
         color: '#f9826c',
         demo: 'https://akshay-hegde.vercel.app/',
         code: 'https://github.com/AKSHAYHEGDE3/portfolio',
+    },
+    {
+        img : '/chatsapp.png',
+        title : 'CHATSAPP',
+        desc:'A real time chat Apllication using Next Js and Firebase.',
+        color: '#efeae2',
+        demo: 'https://chatsapp-akshay.vercel.app/',
+        code: 'https://github.com/AKSHAYHEGDE3/chatsapp',
     },
     {
         img : '/muscify.png',
@@ -59,5 +59,7 @@ export const projectLists = [
 ]
 
 export const skills = [
-    "HTML","CSS","Javascript",'React Js','Next Js','Node js','Express Js','MongoDB','Python'
+    "HTML","CSS","Javascript",'React Js','Next Js',
+    'Node js','React Native','Express Js','MongoDB',
+    'Python','Firebase'
 ]
