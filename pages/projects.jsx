@@ -9,7 +9,7 @@ const projects = () => {
         <h2 style={{fontFamily:'JetBrains Mono,monospace'}} className='text-white text-2xl font-bold'>
             Look What I&apos;ve Built
         </h2>
-        <div  className='flex flex-wrap justify-between mt-5 '>
+        <div className={` ${styles.contain} flex flex-wrap mt-5 `}>
           {
             projectLists.map((project,index)=>{
               return <ProjectCard key={index} project={project} />

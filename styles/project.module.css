@@ -27,17 +27,102 @@
     
 }
 
-@media (min-width:801px) and (max-width:1110px){
+@media (min-width:1251px) and (max-width:1300px){
+   
+    .btns{
+        font-size: 13px !important;
+        height: 40px;
+       
+    }
+    .bttns{
+        margin-top: 15%;
+        
+    }
+}
+
+@media (min-width:955px) and (max-width:991px){
+    .btns{
+        font-size: 10px !important;
+    }
+    .bttns{
+        margin-top: 15%;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:801px) and (max-width:955px){
+    .projectCard{
+        width: 45% !important;
+    }
+    .contain{
+        justify-content: center;
+    }
+    .btns{
+        font-size: 13px !important;
+    }
+    .bttns{
+        margin-top: 18%;
+        align-items: center;
+    }
+
+}
+
+
+@media (min-width:955px) and (max-width:1250px){
     .projectCard{
         width: 40%;
     }
+    .contain{
+        justify-content: center;
+    }
+    .btns{
+        font-size: 15px !important;
+    }
+    .bttns{
+        margin-top: 12%;
+        align-items: center;
+    }
+
 }
-@media (max-width:800px){
+@media (min-width:600px) and (max-width:800px){
     .projectCard{
         width: 60%;
         margin: 10px auto;
     }
+    .bttns{
+        margin-top: 15%;
+    }
 
+}
+
+@media (min-width:500px) and (max-width:599px){
+    .projectCard{
+        width: 85%;
+        margin: 20px 0;
+    }
+    .bttns{
+        margin-top: 15%;
+    }
+    .contain{
+        justify-content: center;
+    }
+}
+
+@media  (max-width:499px){
+    .projectCard{
+        width: 98%;
+        margin: 20px 0;
+    }
+    .bttns{
+        margin-top: 25%;
+    }
+    .contain{
+        justify-content: center;
+    }
+    .btns{
+        font-size: 12px !important;
+    }
 }
 
 /* .main::-webkit-scrollbar {

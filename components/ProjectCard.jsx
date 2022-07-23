@@ -17,8 +17,8 @@ const ProjectCard = ({project}) => {
         {project.desc}
       </p>
       <div className={`flex justify-center ${styles.bttns}`}>
-        <a href={project.demo} target="_blank" rel="noopener noreferrer"><button style={{ color: 'white', backgroundColor: project.color }} className='rounded-full text-center p-2 px-4 border-0 mx-2'>Live Demo</button></a>
-        <a href={project.code} target="_blank" rel="noopener noreferrer"><button style={{ color: project.color, border: `1px solid ${project.color}` }} className='rounded-full text-center p-2 px-4 mx-2'>Source Code</button></a>
+        <a href={project.demo} target="_blank" rel="noopener noreferrer"><button style={{ color: 'white', backgroundColor: project.color }} className={`${styles.btns} rounded-full text-center p-2 px-4 border-0 mx-2`}>Live Demo</button></a>
+        <a href={project.code} target="_blank" rel="noopener noreferrer"><button style={{ color: project.color, border: `1px solid ${project.color}` }} className={`${styles.btns} rounded-full text-center p-2 px-4 mx-2`}>Source Code</button></a>
       </div>
     </div>
   )

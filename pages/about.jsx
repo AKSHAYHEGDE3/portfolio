@@ -20,8 +20,8 @@ const about = () => {
             Hey,I am Akshay Hegde a developer and a problem solver.I am currently purusing my IT Engineering from Vidyavardhinis College of Engineering and technology.
             My main interests lie in web and application developement.I have explored and worked on various technologies.
             have Also Participated in various competitive coding Contests and Hackathons. I have done Internships and worked on industry level projects.
-            In my free time I watch/play cricket,watch movies,series and animes.I also read lots of mangas/manwhas.
-            so if you are also a fan of any of these lets have a chat.
+            In my free time I watch/play cricket,watch movies,series and animes.I also read lots of manga/manwha.
+            so if you are also a fan of any of these or technologies lets connect.
           </p>
           <div className="mt-8 mx-auto w-[600px]">
             <div>
