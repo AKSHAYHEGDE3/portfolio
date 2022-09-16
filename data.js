@@ -24,20 +24,13 @@ export const projectLists = [
         code: 'https://github.com/AKSHAYHEGDE3/yatagram',
     },
     {
-        img : '/portfolio.png',
-        title : 'PORTFOLIO',
-        desc:'My portfolio website using next js and tailwind',
-        color: '#f9826c',
-        demo: 'https://akshay-hegde.vercel.app/',
-        code: 'https://github.com/AKSHAYHEGDE3/portfolio',
-    },
-    {
         img : '/chatsapp.png',
         title : 'CHATSAPP',
-        desc:'A real time chat Apllication using Next Js and Firebase.',
+        desc:'A real time Chat,Group Chat Apllication using Next Js and Firebase.',
         color: '#efeae2',
         demo: 'https://chatsapp-akshay.vercel.app/',
         code: 'https://github.com/AKSHAYHEGDE3/chatsapp',
+        textColor:'#121212'
     },
     {
         img : '/muscify.png',
