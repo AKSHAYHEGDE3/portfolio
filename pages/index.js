@@ -16,7 +16,7 @@ export default function Home() {
           </p>
         </div>
         <div className={`w-[35%] text-center ${styles.profile_img}`} >
-          <img  src='/akshay.jpg' className={`h-[300px] w-[300px] rounded-[50%] mx-auto`} />
+          <img  src='/akshay.jpeg' className={`h-[300px] w-[300px] rounded-[50%] mx-auto`} />
         </div>
       </div>
     </div>
