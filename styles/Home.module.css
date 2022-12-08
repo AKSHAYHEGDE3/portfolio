@@ -49,7 +49,7 @@
     }
   }
   .main{
-    height:93vh;
+    height:calc(100vh - 55px);
     overflow-x: hidden;
     overflow-y: scroll;
    }
