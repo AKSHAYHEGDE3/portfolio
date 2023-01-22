@@ -4,7 +4,7 @@ export const projectLists = [
         title : 'YATAGRAM',
         desc:'A social media web apllication bound to college users.Used MERN stack , jwt, socket io.',
         color: '#ffc107',
-        demo: 'https://yatagram-84b0a.web.app/',
+        demo: 'https://yatagram-6fe2f.web.app/',
         code: 'https://github.com/AKSHAYHEGDE3/yatagram',
     },
     {
