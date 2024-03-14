@@ -45,7 +45,7 @@ const about = () => {
             extensive experience in bug fixing, implementing new features, and
             developing full-stack solutions. I love diving into new technologies
             and figuring out how to make them work for me. From web frameworks
-            to mobile app development, I'm always up for learning and mastering
+            to mobile app development, I&apos;m always up for learning and mastering
             the latest tech trends. 
             Other than Coding I watch/play cricket,watch movies,series,
             animes and also read  manga/manwha. so if you are also a fan of
