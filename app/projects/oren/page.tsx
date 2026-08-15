@@ -10,7 +10,7 @@ import { profile } from "@/app/content";
 export const metadata: Metadata = {
   title: "Oren — OSH Platform · Case Study",
   description:
-    "Senior SWE work on the OSH ESG-reporting platform: dashboards, performance, supplier portals, Scope 3 migration.",
+    "Senior SWE work on the OSH ESG-reporting platform: dashboards, performance, supplier portals, Scope 3 emissions, and AI-automated dev workflows.",
 };
 
 const wins = [
@@ -20,9 +20,14 @@ const wins = [
       "Designed and shipped the dashboard module from scratch across Next.js + tRPC + Prisma + PostgreSQL. Interactive Environment / Social / Governance views, Executive variants, and drill-down supplier analytics powering daily workflows for sustainability officers.",
   },
   {
-    title: "75% API latency reduction",
+    title: "Report workflow: ~30–40s → under 1s",
     body:
-      "The primary report-data API was the bottleneck for the heaviest workflow on the platform. Through query restructuring, indexed access paths, and tRPC payload shaping, brought P95 down by ~75% — sluggish to sub-second.",
+      "The core report workflow was the heaviest on the platform. I split one over-fetching API into targeted endpoints, added indexed access paths, and virtualized + progressively rendered the frontend — bringing render time from ~30–40s down to under 1s.",
+  },
+  {
+    title: "AI-automated dev workflow — Claude Code skills & agents",
+    body:
+      "Built custom Claude Code skills and AI agents that automate the team's ticket-to-PR workflow — planning, implementation scaffolding, Cypress E2E test generation, and automated PR review.",
   },
   {
     title: "Reusable component library — 15+ pages",
@@ -35,9 +40,9 @@ const wins = [
       "Cron job + server-side PDF generation + email delivery, replacing manual weekly exports across every customer tenant.",
   },
   {
-    title: "Scope 3 emissions migration — zero downtime",
+    title: "Scope 3 emissions — new categories & ingestion",
     body:
-      "Led the migration of multiple Scope 3 modules (Fuel & Energy, Waste, bulk-upload pipelines) to a new schema. Authored cleanup scripts that repaired thousands of broken historical records without taking customers offline.",
+      "Extended the Scope 3 emissions module with new Fuel & Energy (C3) and Waste (C5) categories — building the data model, calculation logic, and bulk-upload ingestion pipelines for historical data.",
   },
 ];
 
@@ -48,7 +53,7 @@ const stack = [
   "tRPC",
   "Prisma",
   "PostgreSQL",
-  "Azure",
+  "Redis",
   "Cypress",
 ];
 

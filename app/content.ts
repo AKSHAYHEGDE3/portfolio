@@ -39,10 +39,10 @@ export const roles: Role[] = [
     end: "Present",
     current: true,
     bullets: [
-      "Own end-to-end delivery across the ESG-reporting stack: framework-based reports, emissions modules, dashboards, supplier portals.",
-      "Shipped 250+ tickets at Senior level with a 93% close rate, including 70+ High/Highest-priority production items.",
-      "Led the Scope 3 emissions module migration and authored cleanup scripts that repaired thousands of broken historical records without downtime.",
-      "Designed a per-account USD token-billing system across prod and demo tenants; rebuilt the monthly data-status email cron.",
+      "Own end-to-end delivery across the ESG-reporting stack: framework-based reports (BRSR), Scope 3 emissions, dashboards, and supplier portals.",
+      "Extended the Scope 3 emissions module with new Fuel & Energy (C3) and Waste (C5) categories — data model, calculation logic, and bulk-upload ingestion pipelines.",
+      "Designed a per-account USD token-billing system across prod and demo tenants; rebuilt the monthly data-status email cron for automated delivery.",
+      "Built custom Claude Code skills and AI agents that automate the team's ticket-to-PR development workflow — planning, scaffolding, Cypress E2E test generation, and automated PR review.",
     ],
   },
   {
@@ -51,9 +51,9 @@ export const roles: Role[] = [
     start: "Jun 2023",
     end: "Mar 2025",
     bullets: [
-      "Shipped 500+ Jira tickets across frontend, backend, and database layers on a Next.js / tRPC / Prisma / PostgreSQL / Azure stack.",
+      "Delivered across frontend, backend, and database layers on a Next.js / Node.js / tRPC / Prisma / PostgreSQL / Redis stack, touching 10+ product modules.",
       "Built the ESG Dashboard module from scratch end-to-end — Next.js + tRPC + Prisma + PostgreSQL — powering daily workflows for sustainability officers.",
-      "Cut report-data API latency by 75% through query restructuring, indexed access paths, and tRPC payload shaping.",
+      "Cut a core report workflow's render time from ~30–40s to under 1s via targeted endpoints, indexed access paths, and a virtualized, progressively rendered frontend.",
       "Designed and deployed the automated PDF report pipeline: cron + server-side PDF generation + email delivery.",
       "Architected the reusable component library that became the foundation of the product UI revamp across 15+ pages.",
     ],
@@ -96,8 +96,8 @@ export const projects: Project[] = [
   {
     title: "Oren — OSH Platform",
     blurb:
-      "ESG SaaS platform serving large enterprises for BRSR, GRI and Scope 1-2-3 reporting. Built the dashboard module from scratch, cut a critical API by 75%, and own Senior-level delivery across reporting, emissions, and supplier portals.",
-    tags: ["Next.js", "tRPC", "Prisma", "PostgreSQL", "Azure"],
+      "ESG SaaS platform serving large enterprises for BRSR, GRI and Scope 1-2-3 reporting. Built the dashboard module from scratch, cut a core report workflow from ~30–40s to under 1s, and own Senior-level delivery across reporting, emissions, and supplier portals.",
+    tags: ["Next.js", "tRPC", "Prisma", "PostgreSQL", "Redis"],
     caseStudy: "/projects/oren",
   },
   {
@@ -123,7 +123,7 @@ export const skills = [
   },
   {
     group: "Backend",
-    items: ["Node.js", "Express", "tRPC", "REST APIs", "Cron schedulers", "Server-side PDF rendering"],
+    items: ["Node.js", "Express", "tRPC", "REST APIs", "Redis", "Cron schedulers", "Server-side PDF rendering"],
   },
   {
     group: "Databases & ORM",
