@@ -20,9 +20,9 @@ const wins = [
       "Designed and shipped the dashboard module from scratch across Next.js + tRPC + Prisma + PostgreSQL. Interactive Environment / Social / Governance views, Executive variants, and drill-down supplier analytics powering daily workflows for sustainability officers.",
   },
   {
-    title: "Report workflow: ~30–40s → under 1s",
+    title: "Report workflow: ~10–15s → under 1s",
     body:
-      "The core report workflow was the heaviest on the platform. I split one over-fetching API into targeted endpoints, added indexed access paths, and virtualized + progressively rendered the frontend — bringing render time from ~30–40s down to under 1s.",
+      "The core report workflow was the heaviest on the platform. I split one over-fetching API into targeted endpoints, added indexed access paths, and virtualized + progressively rendered the frontend — bringing render time from ~10–15s down to under 1s.",
   },
   {
     title: "AI-automated dev workflow — Claude Code skills & agents",

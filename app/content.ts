@@ -53,7 +53,7 @@ export const roles: Role[] = [
     bullets: [
       "Delivered across frontend, backend, and database layers on a Next.js / Node.js / tRPC / Prisma / PostgreSQL / Redis stack, touching 10+ product modules.",
       "Built the ESG Dashboard module from scratch end-to-end — Next.js + tRPC + Prisma + PostgreSQL — powering daily workflows for sustainability officers.",
-      "Cut a core report workflow's render time from ~30–40s to under 1s via targeted endpoints, indexed access paths, and a virtualized, progressively rendered frontend.",
+      "Cut a core report workflow's render time from ~10–15s to under 1s via targeted endpoints, indexed access paths, and a virtualized, progressively rendered frontend.",
       "Designed and deployed the automated PDF report pipeline: cron + server-side PDF generation + email delivery.",
       "Architected the reusable component library that became the foundation of the product UI revamp across 15+ pages.",
     ],
@@ -96,7 +96,7 @@ export const projects: Project[] = [
   {
     title: "Oren — OSH Platform",
     blurb:
-      "ESG SaaS platform serving large enterprises for BRSR, GRI and Scope 1-2-3 reporting. Built the dashboard module from scratch, cut a core report workflow from ~30–40s to under 1s, and own Senior-level delivery across reporting, emissions, and supplier portals.",
+      "ESG SaaS platform serving large enterprises for BRSR, GRI and Scope 1-2-3 reporting. Built the dashboard module from scratch, cut a core report workflow from ~10–15s to under 1s, and own Senior-level delivery across reporting, emissions, and supplier portals.",
     tags: ["Next.js", "tRPC", "Prisma", "PostgreSQL", "Redis"],
     caseStudy: "/projects/oren",
   },
